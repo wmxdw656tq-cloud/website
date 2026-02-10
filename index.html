@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ron's First WebPage</title>
+    <meta name="author" content="Kyahron McQueen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="view info on the backstory of Kyahron McQueen">
+    <meta charset="utf-8">
+
+    <style>
+        body {
+            background-image: url("BG.png");
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            background-image: url("images/banner.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px black;
+        }
+
+        .banner h1 {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px 30px;
+            border-radius: 12px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 8px 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f4f4f4;
+            color: #222;
+            border-radius: 6px;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.85);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        hr {
+            border: none;
+            height: 3px;
+            background-color: black;
+            margin: 30px 0;
+        }
+
+        img {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="banner" id="TopofPage">
+    <h1>Welcome To My First Web Page</h1>
+</div>
+
+<nav>
+    <a href="#main">Main Content</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main id="main">
+    <p>This will be a quick and breif web page to learn a bit about who I am.</p>
+
+    <hr>
+
+    <h2>Get To Know Me</h2>
+
+    <p>
+        My name is <em>Kyahron McQueen</em>, a freshman in college, intrigued in computers.
+        All in hope of finding a career in it one day. This is my first year at SCF
+        <strong>
+            <a href="https://www.scf.edu/" target="_blank">(The State College Of Florida)</a>
+        </strong>
+    </p>
+
+    <p>
+        Along my jorney to college I had ups and downs but was successful in graduating highschool
+        to get to this new step. I went to Palmetto HighSchool
+        <a href="https://www.manateeschools.net/o/palmetto" target="_blank">(PHS)</a>
+        and graduated class of 2024. During my time there I seen things from deadly viruses
+        to gas leaks every other week. I was even a student while watching the construction
+        of the new cafe.
+    </p>
+
+    <img src="Palmetto_HS_logo.png" alt="PHS logo" width="150" height="150">
+    <img src="point.png" alt="Point" width="125" height="125" style="margin-left: 15px;">
+    <img src="scf.png" alt="SCF Logo" width="185" height="150" style="margin-left: 15px;">
+
+    <hr>
+
+    <h3 id="contact">Ways To Contact Me</h3>
+
+    <p>
+        To reach me please leave me an email at
+        <a href="mailto:kmcquee@student.scf.edu">kmcquee@student.scf.edu</a>
+    </p>
+
+    <p>
+        If I don't respond within 3–5 business days give me a call.
+        My number is <a href="tel:9415556578">941‑555‑6578</a>
+    </p>
+
+    <hr>
+
+    <a href="#TopofPage">Top</a>
+</main>
+
+<footer>
+    <p>&copy; 2026 Kyahron McQueen</p>
+</footer>
+
+</body>
+</html>
